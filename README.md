@@ -2,9 +2,7 @@
 
 Olá, bora pro desafio? :dancers:
 
-O nosso desafio proposto é uma aplicação de uma livraria.
-
-Neste design do Figma [aqui]()
+O nosso desafio proposto é uma aplicação de uma livraria, com o design da aplicação que mandei no email, que deve ser feito com Vuejs.
 
 Vou separar a explicação em partes pra ficar mais fácil: **Integração**, **Funcionalidades do App**, **Funcionalidades por página**, **Avaliação** e **Como entregar**.
 
