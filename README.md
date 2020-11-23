@@ -25,7 +25,7 @@ Ela só aceita GET e retorna um Array de objetos, esse é o schema do objeto:
   "cover_picture": String,
   "category": String,
   "stock": Integer,
-  "users_who_liked": Array
+  "users_who_liked": Array<String>
 }
 ```
 
@@ -34,7 +34,7 @@ Ela só aceita GET e retorna um Array de objetos, esse é o schema do objeto:
 
 Dark Mode, clicável ali na Navbar.
 
-Like, a iteração com ele deve ser feita localmente.
+Curtir, o gerenciamento desse estado deve ser feito localmente.
 
 
 ## Funcionalidades por Página
@@ -50,10 +50,10 @@ Na tela de listagem temos as seguintes funcionalidades:
 - Listagem dos Livros
 - Pesquisa por Nome
 - Filtros de pesquisa:
-  - Melhores Avaliados
+  - Melhores Avaliados (Com mais curtir)
   - Em estoque
   - Ordem Alfabética
-  - Livros curtidos (Os que você deu curtiu)
+  - Livros curtidos (Os que você deu curtir)
   - Por categoria* (abre outro input para pesquisar por nome da categoria)
 - Páginação da listagem
 - Curtir um livro (clique no coração)
@@ -72,12 +72,16 @@ Na tela de descrição temos as seguintes funcionalidades:
 A avaliação vai ser feita no todo do que for entregue, mas existem alguns pontos que vão chamar mais atenção.
 
 - Componentização
+  - A maneira em que as peças do sistema foram pensadas e abstraidas.
 - Organização do código
+  - Como você pensou e organizou seu código, desde a estrutura das pastas até o código escrito.
 - Resiliência da aplicação
+  - Não importa até onde você conseguiu chegar, o que importa é que o seu entregavel esteja funcionando sem quebrar.
 
 Apreciamos também:
 
 - Transições
+  - Deixe a livraria bonita, como se fosse sua :sunglasses:
 - Fidelidade com o Design proposto
 
 ## Como entregar
