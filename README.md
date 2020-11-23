@@ -6,11 +6,28 @@ O nosso desafio proposto é uma aplicação de uma livraria.
 
 Neste design do Figma [aqui]()
 
-## O Desafio
+Vou separar a explicação em partes pra ficar mais fácil: **Integração**, **Funcionalidades do App**, **Funcionalidades por página**, **Avaliação** e **Como entregar**.
 
 
-Vou separar a explicação em partes pra ficar mais fácil: Funcionalidades do App, Funcionalidades por página, Integração, Avaliação e Como entregar.
+## Integração
 
+Liberamos uma API para que você possa consumir e ter acesso aos livros
+
+[https://us-central1-tera-platform.cloudfunctions.net/url-tera-code-challenge](https://us-central1-tera-platform.cloudfunctions.net/url-tera-code-challenge)
+
+Ela só aceita GET e retorna um Array de objetos, esse é o schema do objeto:
+
+```
+{
+  "name": String,
+  "author": String,
+  "description": String, 
+  "cover_picture": String,
+  "category": String,
+  "stock": Integer,
+  "users_who_liked": Array
+}
+```
 
 ## Funcionalidades do App
 
@@ -48,26 +65,6 @@ Na tela de descrição temos as seguintes funcionalidades:
 
 - Botão de Voltar
 - Curtir um livro (clique no coração)
-
-## Integração
-
-Liberamos uma API para que vocês possam consumir e ter acesso aos livros
-
-[https://us-central1-tera-platform.cloudfunctions.net/url-tera-code-challenge](https://us-central1-tera-platform.cloudfunctions.net/url-tera-code-challenge)
-
-Ela só aceita GET e retorna um Array de objetos, esse é o schema do objeto:
-
-```
-{
-  "name": String,
-  "author": String,
-  "description": String, 
-  "cover_picture": String,
-  "category": String,
-  "stock": Integer,
-  "users_who_liked": Array
-}
-```
 
 
 ## Avaliação
