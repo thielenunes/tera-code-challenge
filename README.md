@@ -74,7 +74,7 @@ A avaliação vai ser feita no todo do que for entregue, mas existem alguns pont
 - Organização do código
   - Como você pensou e organizou seu código, desde a estrutura das pastas até o código escrito.
 - Resiliência da aplicação
-  - Não importa até onde você conseguiu chegar, o que importa é que o seu entregavel esteja funcionando sem quebrar.
+  - Não importa até onde você conseguiu chegar, o que importa é que o seu entregavel esteja funcionando sem quebrar e com qualidade.
 
 Apreciamos também:
 
