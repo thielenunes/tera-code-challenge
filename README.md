@@ -84,6 +84,6 @@ Apreciamos também:
 
 ## Como entregar
 
-Pedimos para que vocês clonem esse repositório e façam um pull request com o código, com um README.md com como rodar o projeto
+Pedimos para que você crie um Fork desse repositório e faça um pull request com o código e com um README.md descrevendo como rodar o projeto
 
 Desejamos boa sorte, e muito obrigado!
