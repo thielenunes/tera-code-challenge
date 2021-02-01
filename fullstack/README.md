@@ -2,18 +2,20 @@
 
 Olá, bora pro desafio? :dancers:
 
-O nosso desafio proposto é uma aplicação de uma livraria, composto de uma API, um FrontEnd e um banco de dados, usando o design da aplicação que mandei no email e as rotas que vamos te explicar aqui, a stack deve ser Nodejs e Vuejs, e o teste precisa estar rodando em alguma infra (ex: Heroku).
+O nosso desafio proposto é uma aplicação de uma livraria, composto de uma API, um FrontEnd e um banco de dados, usando o design da aplicação que está aqui no repositório. A stack deve ser Nodejs e Vuejs. 
 
-Vou separar a explicação em partes pra ficar mais fácil: **Integração**, **Funcionalidades do App**, **Funcionalidades por página**, **Avaliação** e **Como entregar**.
+O teste precisa estar hospedado em algum lugar (ex: Firebase, Heroku, Github Hosting, etc...).
+
+Vou separar a explicação em partes pra ficar mais fácil: **Banco de Dados**, **Funcionalidades do App**, **Funcionalidades por página**, **Avaliação** e **Como entregar**.
 
 
-## Integração
+## Banco de Dados
 
-Liberamos uma API para que você possa ter acesso aos dados livros
+Aqui no repositório, tem um arquivo chamado, ```db.json``` para que você possa ter acesso aos dados dos livros
 
 [https://us-central1-tera-platform.cloudfunctions.net/url-tera-code-challenge](https://us-central1-tera-platform.cloudfunctions.net/url-tera-code-challenge)
 
-Ela só aceita GET e retorna um Array de objetos, esse é o schema do objeto:
+Esse é o schema dos objetos:
 
 ```
 {
@@ -27,15 +29,9 @@ Ela só aceita GET e retorna um Array de objetos, esse é o schema do objeto:
 }
 ```
 
-Quanto a integração da sua API com o FrontEnd, a API precisa estar escrita em REST e gostariamos de ver um minímo de segurança nessa conexão!
-
 
 ## Funcionalidades do App
 
-
-Dark Mode, clicável ali na Navbar.
-
-Curtir, o gerenciamento desse estado deve ser feito localmente.
 
 Listar todos os livros
 
@@ -44,6 +40,10 @@ Atualizar um livro
 Adicionar um livro
 
 Remover um livro
+
+Curtir, o gerenciamento desse estado deve ser feito localmente.
+
+Dark Mode, clicável ali na Navbar.
 
 
 ## Funcionalidades por Página
@@ -63,38 +63,45 @@ Na tela de listagem temos as seguintes funcionalidades:
   - Em estoque
   - Ordem Alfabética
   - Livros curtidos (Os que você deu curtir)
-  - Por categoria* (abre outro input para pesquisar por nome da categoria)
 - Páginação da listagem
 - Curtir um livro (clique no coração)
 
 
-### Página de Descrição
+### Página de Formulário
 
-Na tela de descrição temos as seguintes funcionalidades:
+Na tela de formulário temos as seguintes funcionalidades:
 
 - Botão de Voltar
 - Curtir um livro (clique no coração)
+
+No caso de um livro novo
+
+- Adicionar um livro
+
+No caso de um livro já existente
+
+- Atualizar um livro
+- Remover um livro (caso seja essa rota)
 
 
 ## Avaliação
 
 A avaliação vai ser feita no todo do que for entregue, mas existem alguns pontos que vão chamar mais atenção.
 
-- Componentização
-  - A maneira em que as peças do sistema foram pensadas e abstraidas.
 - Organização do código
   - Como você pensou e organizou seu código, desde a estrutura das pastas até o código escrito.
 - Resiliência da aplicação
   - Não importa até onde você conseguiu chegar, o que importa é que o seu entregavel esteja funcionando sem quebrar e com qualidade.
+- Compartilhamento de código
+  - Conseguir usar códigos compartilhados entre o backend e o frontend.
 
 Apreciamos também:
 
-- Transições
-  - Deixe a livraria bonita, como se fosse sua :sunglasses:
 - Fidelidade com o Design proposto
+
 
 ## Como entregar
 
-Pedimos para que você crie um Fork desse repositório e faça um pull request com o código e com um README.md descrevendo como rodar o projeto
+Pedimos para que você crie um Fork desse repositório e faça um pull request com o código e com um README.md descrevendo que tenha a url de onde acessar seu app
 
 Desejamos boa sorte, e muito obrigado!
