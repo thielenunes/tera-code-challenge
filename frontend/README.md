@@ -79,7 +79,6 @@ A avaliação vai ser feita no todo do que for entregue, mas existem alguns pont
 Apreciamos também:
 
 - Transições
-  - Deixe a livraria bonita, como se fosse sua :sunglasses:
 - Fidelidade com o Design proposto
 
 ## Como entregar
